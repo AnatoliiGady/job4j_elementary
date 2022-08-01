@@ -7,7 +7,7 @@ public class TrgArea {
     }
 
     public static void main(String[] args) {
-        double geron = TrgArea.area(1, 1, 1);
-        System.out.println("area (1, 1, 1) = " + geron);
+        double geron1 = TrgArea.area(1, 1, 1);
+        System.out.println("area (1, 1, 1) = " + geron1);
     }
 }
