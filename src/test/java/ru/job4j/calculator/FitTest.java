@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class FitTest {
 
-        @Test
+    @Test
     public void whenMan180Then92() {
         short in = 180;
         double expected = 92;
