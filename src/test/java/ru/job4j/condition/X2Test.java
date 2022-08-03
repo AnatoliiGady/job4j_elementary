@@ -3,7 +3,6 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 public class X2Test {
 
     @Test
@@ -17,7 +16,6 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-
     public void whenA1B1C1X1Then3() {
         int a = 1;
         int b = 1;
@@ -28,7 +26,6 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-
     public void whenA0B1C1X1then2() {
         int a = 0;
         int b = 1;
