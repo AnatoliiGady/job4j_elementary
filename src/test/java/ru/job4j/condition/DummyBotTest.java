@@ -26,7 +26,7 @@ public class DummyBotTest {
     public void whenUnknowBot() {
         String in = "Can you add two plus two?";
         String  result = DummyBot.answer(in);
-        String exptcted = "I don't know. Please, ask another question.";
-        assertThat(result).isEqualTo(exptcted);
+        String expected = "I don't know. Please, ask another question.";
+        assertThat(result).isEqualTo(expected);
     }
 }
