@@ -6,4 +6,9 @@ public class Max {
         return result;
     }
 
+    public static void main(String[] args) {
+        int x = Max.max(30, 50);
+        System.out.println("Максимальное значение = " + x);
+    }
+
 }
