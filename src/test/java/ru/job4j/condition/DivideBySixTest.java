@@ -30,7 +30,7 @@ public class DivideBySixTest {
 
     @Test
     public void whenNumberNoDivideBy3AndNotEven() {
-        int in = 25;
+        int in = 23;
         String result = DivideBySix.checkNumber(in);
         String expected = "Исходное число не делится на 3 и не является четным.";
         assertThat(result).isEqualTo(expected);
