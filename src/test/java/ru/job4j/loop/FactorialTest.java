@@ -11,6 +11,7 @@ public class FactorialTest {
         int n = 5;
         int out = Factorial.calc(n);
         assertThat(out).isEqualTo(expected);
+
     }
 
     @Test
