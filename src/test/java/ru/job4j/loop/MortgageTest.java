@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class MortgageTest {
-
     @Test
     public void whenAmount1000Salary1200Percent1Then1() {
         int amount = 1000;
