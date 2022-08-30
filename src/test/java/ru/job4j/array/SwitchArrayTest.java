@@ -19,7 +19,7 @@ class SwitchArrayTest {
     public void whenSwap1To2() {
         int[] input = {1, 2, 3, 4};
         int source = 1;
-        int dest = input.length - 2;
+        int dest = 2;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {1, 3, 2, 4};
         assertThat(result).containsExactly(expected);
