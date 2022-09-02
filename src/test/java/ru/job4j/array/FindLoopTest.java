@@ -39,7 +39,7 @@ public class FindLoopTest {
         int start = 2;
         int finish = 4;
         int result = FindLoop.indexInRange(data, el, start, finish);
-        int expected = - 1;
+        int expected = -1;
         assertThat(result).isEqualTo(expected);
     }
 }
