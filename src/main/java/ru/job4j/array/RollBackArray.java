@@ -4,7 +4,7 @@ public class RollBackArray {
     public static int[] rollback(int[] array) {
         int[] result = new int[array.length];
         for (int index = 0; index < array.length; index++) {
-            int lastIndex = result.length - 1;
+            int lastIndex = result.length;
             int currentIndex = lastIndex - index - 1;
             result[currentIndex] = array[index];
         }
