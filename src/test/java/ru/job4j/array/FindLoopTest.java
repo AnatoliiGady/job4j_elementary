@@ -32,6 +32,7 @@ public class FindLoopTest {
         int expected = 3;
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     public void whenDiapasonHasNot8ThenMinus1() {
         int[] data = new int[]{5, 2, 10, 2, 4};
